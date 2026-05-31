@@ -1,11 +1,11 @@
 ---
 name: notification-delivery
 description: Deliver notifications via push, SMS, email, in-app, and webhooks — manage templates, schedule delivery, track status, and respect user preferences. Use when sending notifications, managing templates, checking delivery status, scheduling alerts, or configuring preferences.
-version: "1.0.0"
 license: Apache-2.0
+compatibility: Requires mcp-notifications server connected.
 allowed-tools: [send_notification, send_from_template, broadcast, schedule_notification, list_notifications, get_status, retry_notification, list_templates, get_template, create_template, get_preferences, update_preferences, get_delivery_stats]
-tags: [communication, notifications, push, sms, alerts]
 metadata:
+  category: communication
   author: Zavora AI
   mcp-server: mcp-notifications
 ---
